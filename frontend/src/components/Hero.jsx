@@ -46,7 +46,12 @@ const Hero = () => {
               <Monitor className="mr-2 w-5 h-5" />
               Download for Windows
             </Button>
-            <Button size="lg" variant="outline" className="h-14 px-8 text-lg border-white/20 hover:bg-white/10 hover:text-white transition-all hover:scale-105">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="h-14 px-8 text-lg border-white/20 hover:bg-white/10 hover:text-white transition-all hover:scale-105"
+              onClick={() => window.open('https://drive.google.com/uc?export=download&id=1svVhX8kUiV0e1KV9qGoFwwgMCKg0opk3', '_blank')}
+            >
               <Terminal className="mr-2 w-5 h-5" />
               Download for Linux
             </Button>
