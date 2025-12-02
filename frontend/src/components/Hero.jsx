@@ -45,7 +45,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="h-14 px-8 text-lg bg-primary hover:bg-primary/90 text-primary-foreground shadow-xl shadow-primary/20 transition-all hover:scale-105"
-              onClick={() => window.open('https://ia.edducode.me/app-windows.zip', '_blank')}
+              onClick={() => window.open('https://ia.edducode.me/app-windows-v1.zip', '_blank')}
             >
               <Monitor className="mr-2 w-5 h-5" />
               Download for Windows
