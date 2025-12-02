@@ -42,7 +42,11 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mt-4">
-            <Button size="lg" className="h-14 px-8 text-lg bg-primary hover:bg-primary/90 text-primary-foreground shadow-xl shadow-primary/20 transition-all hover:scale-105">
+            <Button 
+              size="lg" 
+              className="h-14 px-8 text-lg bg-primary hover:bg-primary/90 text-primary-foreground shadow-xl shadow-primary/20 transition-all hover:scale-105"
+              onClick={() => window.open('https://ia.edducode.me/app-windows.zip', '_blank')}
+            >
               <Monitor className="mr-2 w-5 h-5" />
               Download for Windows
             </Button>
@@ -50,7 +54,7 @@ const Hero = () => {
               size="lg" 
               variant="outline" 
               className="h-14 px-8 text-lg border-white/20 hover:bg-white/10 hover:text-white transition-all hover:scale-105"
-              onClick={() => window.open('https://drive.google.com/uc?export=download&id=1svVhX8kUiV0e1KV9qGoFwwgMCKg0opk3', '_blank')}
+              onClick={() => window.open('https://ia.edducode.me/app-linux.AppImage', '_blank')}
             >
               <Terminal className="mr-2 w-5 h-5" />
               Download for Linux
